@@ -1,0 +1,11 @@
+img {
+    display :block;
+    margin: 10px;
+}
+
+p span {
+    background-color: gainsboro;
+    display: block;
+    margin: 10px;
+    padding: 8px;
+}
