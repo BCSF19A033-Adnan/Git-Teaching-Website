@@ -212,6 +212,107 @@
 
 
         </ul>
+
+        <h3>Basic GitHub Usage</h3>
+        <ul>
+            <li>
+                you can create a repository on github and then clone it into your PC or you can make a git prooject on your PC and then push it to github.
+            </li>
+
+            <li>
+                <h4>First, lets make a repo on GitHub and Clone it</h4>
+                <ul>
+                    <li>
+                        go to your github account.
+                    </li>
+                    <li>
+                        Click create repository:
+                        <img src="./img/15.png" alt="">
+                    </li>
+                    <li>
+                        Give it a name and then click on create! (You can also add README file)
+
+                        <img src="./img/17.png" alt="">
+                    </li>
+                    <li>
+                        Now the repo is created
+                        <img src="./img/18.png" alt="">
+                    </li>
+
+                    <li>
+                        To clone this repo to your PC, copy the HTTPS link: (by clicking on code)
+                        <img src="./img/19.png" alt="">
+                    </li>
+
+                    <li>
+                        Go to an emty folder on your PC, open Command prompt there and run:
+                        <span>git clone [https://github.com/BCSF19A033-Adnan/test_repo.git]</span>
+                        <img src="./img/20.png" alt="">
+                    </li>
+
+                    <li>
+                        Done! you will see a new folder in that cmd folder, containg your clone of repository!
+                    </li>
+
+                    <li>
+                        Remember this is already a git project, you dont need to "git init"
+                        <img src="./img/21.png" alt="">
+                    </li>
+
+                    <li>
+                        Make a change in this folder (change README) and check status:
+                        <img src="./img/23.png" alt="">
+                    </li>
+                    <li>
+                        Now this change is only made to local copy, you can confirm it by checking status again:
+                        <img src="./img/24.png" alt="">
+                        It says, your branch is ahead by 1 commit, meaning there is 1 commit change in local repo which is not pushed to GitHub repo.
+                    </li>
+
+                    <li>
+                        Push your changes to remote repo (GitHub) by:
+                        <span>git push</span>
+                        <img src="./img/25.png" alt="">
+                        Similarly you can add and push new files too.
+                    </li>
+
+                    <li>
+                        Note: if you used git push for first time there would be a short popup from windows to authenticate your github passwrod.
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <li>
+                    <h4>Now, lets make a local git project and then push it to github</h4>
+                    <ul>
+                        <li>
+                            Lets go back to our previous project where we learnt basic git commands or you can just make a new local git project.
+                        </li>
+
+                        <li>
+                            Lets add this "this" project to our previous GitHub Repo:
+                            <img src="./img/26.png" alt="">
+                        </li>
+
+                        <li>
+                            Copy the HTTPS URL of GitHub repo like previously done
+                            <img src="./img/19.png" alt="">
+                        </li>
+
+                        <li>
+                            In your "test" project folder enter:
+                            <span>git remote add origin [https://github.com/BCSF19A033-Adnan/test_repo.git]</span>
+                            <span>git push or git push --set-upstream origin master</span>
+
+                            <img src="./img/27.png" alt="">
+                        </li>
+                    </ul>
+                </li>
+            </li>
+
+
+        </ul>
     </p>    
 
     <div style="height: 500px;"></div>
