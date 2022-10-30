@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="./style.css">
     <title>Git Tutorial</title>
 </head>
+
 <body>
     <h1>A simple Git Tutorial</h1>
     <!-- <h2>Agenda</h2>
@@ -23,20 +25,28 @@
 
     <h2>What is Git?</h2>
     <p>
-        Git is an open source a <a href="https://en.wikipedia.org/wiki/Version_control" target="_blank">version control system</a>, developed by Linus Torvalds. Git is like an ultimate save button for your files/projects.
+        Git is an open source a <a href="https://en.wikipedia.org/wiki/Version_control" target="_blank">version control
+            system</a>, developed by Linus Torvalds. Git is like an ultimate save button for your files/projects.
     </p>
     <p>
-        A save in Git records differences in the files and folders AND keeps a historical record of each save. This feature is a game changer. As an individual developer, Git enables you to review how your project grows and to easily look at or restore file states from the past. Once connected to a network, Git allows you to push your project to GitHub or other alternatives such as: Bitbucket, Beanstalk, or GitLab for sharing and collaborating with other developers.
+        A save in Git records differences in the files and folders AND keeps a historical record of each save. This
+        feature is a game changer. As an individual developer, Git enables you to review how your project grows and to
+        easily look at or restore file states from the past. Once connected to a network, Git allows you to push your
+        project to GitHub or other alternatives such as: Bitbucket, Beanstalk, or GitLab for sharing and collaborating
+        with other developers.
     </p>
 
     <h2>
         What is GitHub?
     </h2>
     <p>
-        First, lets clear that Git and Github are not related by any means. GitHub is a for-profit company that offers a cloud-based Git repository hosting service. Essentially, it makes it a lot easier for individuals and teams to use Git for version control and collaboration.
+        First, lets clear that Git and Github are not related by any means. GitHub is a for-profit company that offers a
+        cloud-based Git repository hosting service. Essentially, it makes it a lot easier for individuals and teams to
+        use Git for version control and collaboration.
     </p>
     <p>
-        At a high level, GitHub is a website and cloud-based service that helps developers store and manage their code, as well as track and control changes to their code. 
+        At a high level, GitHub is a website and cloud-based service that helps developers store and manage their code,
+        as well as track and control changes to their code.
     </p>
 
     <hr>
@@ -47,280 +57,330 @@
         First you will need to install Git from this <a href="https://git-scm.com/downloads" target="_blank">Link</a>
     </p>
     <p>
-        Make sure you select your right OS and hardware to install. Once downloaded just install it and toy dont need to change any default settings, unless you really know what you are doing!
+        Make sure you select your right OS and hardware to install. Once downloaded just install it and toy dont need to
+        change any default settings, unless you really know what you are doing!
     </p>
-    <p>you can confirm your Git installation by openning Command Prompt and entering "git --version". if the output is differet reinsatll.</p>
+    <p>you can confirm your Git installation by openning Command Prompt and entering "git --version". if the output is
+        differet reinsatll.</p>
     <img src="./img/1.png" width="600ox" height="auto">
 
     <h3>2. Make a GitHub Account</h3>
-    <p>It is as simple as making any social media account, just follow on-screen instructions. Remember your userName and passwrod!</p>
+    <p>It is as simple as making any social media account, just follow on-screen instructions. Remember your userName
+        and passwrod!</p>
 
     <h3>3. Back to Git Configurations</h3>
-    <p>As you have installed Git, you are ready to use it on your local machine but before that lets connect your git account with GitHub. In later part we will learn how to actaully use Git and GitHub.</p>
+    <p>As you have installed Git, you are ready to use it on your local machine but before that lets connect your git
+        account with GitHub. In later part we will learn how to actaully use Git and GitHub.</p>
     <p>
-        <h3>4. Type the following Commands:</h3>
-        <p>
-            <span>git config --global user.name "Your userName"</span>
-            here userName is your GitHub profile userName, in double quotes.
-        </p>
-        <img src="./img/2.png" width="600ox" height="auto">
+    <h3>4. Type the following Commands:</h3>
+    <p>
+        <span>git config --global user.name "Your userName"</span>
+        here userName is your GitHub profile userName, in double quotes.
+    </p>
+    <img src="./img/2.png" width="600ox" height="auto">
 
-        <p>
-            <span>git config --global user.email "yourname@example.com"</span>
-            here in double quotes, enter your github email or email provided to you by github. (Im using email from Github.)
-        </p>
-        <img src="./img/3.png" width="600ox" height="auto">
+    <p>
+        <span>git config --global user.email "yourname@example.com"</span>
+        here in double quotes, enter your github email or email provided to you by github. (Im using email from Github.)
+    </p>
+    <img src="./img/3.png" width="600ox" height="auto">
 
-        <p>
-            <h3>5. Check Configurations</h3>
-            Finally check, these configurations by entering:
+    <p>
+    <h3>5. Check Configurations</h3>
+    Finally check, these configurations by entering:
 
-            <span>"git config --global --list"</span>
-        </p>
-        <img src="img/4.png" width="600ox" height="auto">
+    <span>"git config --global --list"</span>
+    </p>
+    <img src="img/4.png" width="600ox" height="auto">
 
-        <p>
-            <h3>6. Other Configurations</h3>
-            There are many other configurations, that you can setup, but above are the ones most needed. For example you can set VS Code as default editor for commit messages by entering:
-            <span>git config --global core.editor "code --wait"</span>
-        </p>
-        <img src="./img/5.png" width="600ox" height="auto">
+    <p>
+    <h3>6. Other Configurations</h3>
+    There are many other configurations, that you can setup, but above are the ones most needed. For example you can set
+    VS Code as default editor for commit messages by entering:
+    <span>git config --global core.editor "code --wait"</span>
+    </p>
+    <img src="./img/5.png" width="600ox" height="auto">
     </p>
 
     <hr>
 
     <p>
-        <h2>How to use Git and GitHub</h2>
-        <p>
-            Now that you have setup git and github, you are ready to do somethings with these!
-        </p>
-        <h3>1. Intiate a Git project</h3>
-        <ul>
-            
-            <li>
-                Make a new folder and open command prompt in that folder.
-                <ul>
-                    <li>An easier way to do so is: </li>
-                    <li>Go to that folder in explorer and type cmd before URI and enter.<img src="./img/6.png" alt=""></li>
-                    <li>
-                        Command Prompt will open in this folder!
-                    </li>
-                </ul>
-            </li>
+    <h2>How to use Git and GitHub</h2>
+    <p>
+        Now that you have setup git and github, you are ready to do somethings with these!
+    </p>
+    <h3>1. Intiate a Git project</h3>
+    <ul>
 
-            <li>
-                Type and enter : <span>git init</span>
-                <ul>
-                    <li>Now you have successfully intiated git in this folder.</li>
-                    <li>
-                        Output
-                        <img src="./img/7.png" alt="">
-                    </li>
-                    <li>
-                        Now you can use command:
-                        <span>git status</span>
-                    </li>
-                    <li>
-                        Output should be:
-                        <img src="./img/8.png" alt="">
-                    </li>
-                </ul>
-            </li>
-        </ul>
-
-        <h3>2. Basic Git Usage</h3>
-        <ul>
-            <li>
-                Create two files in this folder, say f1.txt and f2.txt. and check <span>git status</span>
-                <ul>
-                    <li>
-                        you can see both files are recognized as untracked.
-                    </li>
-                    <li>
-                        Untracked means they are not added in git for tracking and you will have to add them.
-                    </li>
-                    <li>
-                        <img src="./img/9.png" alt="">
-                    </li>
-                </ul>
-            </li>
-
-            <li>
-                Add untracked/new files by:
-                <span>git add [fileName]</span>
-                or to add all files:
-                <span>git add .</span>
-                <ul>
-                    <li>
-                        once you add the files, they are placed to staging index. You can check this by:
-                        <span>git status</span>
-                        <img src="./img/10.png" alt="">
-                    </li>
-                    <li>
-                        Staged files/folders are shown in green!
-                    </li>
-                    <li>Staged means they are ready to be committed!</li>
-                </ul>
-            </li>
-
-            <li>
-                Commit the files by:
-                <span>
-                    git commit -m "Some meaningful commit message"
-                </span>
-                <ul>
-                    <li>
-                        the output will be like this:
-                        <img src="./img/11.png" alt="">
-                    </li>
-                    <li>
-                        We use -m option with commit, when the commit message is short.
-                    </li>
-
-                    <li>
-                        if we type only
-                        <span>git commit</span>
-                         this will open our default editor for writing commit message!
-                    </li>
-                </ul>
-            </li>
-
-            <li>
-                Make a change in f1.txt
-                <ul>
-                    <li>
-                        Check status
-                        <img src="./img/12.png" alt="">
-                    </li>
-                    <li>
-                        Now you will need to add and commit again to record your changes!
-                        <img src="./img/13.png" alt="">
-                    </li>
-                </ul>
-            </li>
-
-            <li>
-                Similarly, if you delete or add any new file/folder you will have to add those to git and commit!
-            </li>
-
-            <li>
-                you can check all commit records by:
-                <span>git log</span>
-                <img src="./img/14.png" alt="">
-            </li>
-
-
-
-        </ul>
-
-        <h3>Basic GitHub Usage</h3>
-        <ul>
-            <li>
-                you can create a repository on github and then clone it into your PC or you can make a git prooject on your PC and then push it to github.
-            </li>
-
-            <li>
-                <h4>First, lets make a repo on GitHub and Clone it</h4>
-                <ul>
-                    <li>
-                        go to your github account.
-                    </li>
-                    <li>
-                        Click create repository:
-                        <img src="./img/15.png" alt="">
-                    </li>
-                    <li>
-                        Give it a name and then click on create! (You can also add README file)
-
-                        <img src="./img/17.png" alt="">
-                    </li>
-                    <li>
-                        Now the repo is created
-                        <img src="./img/18.png" alt="">
-                    </li>
-
-                    <li>
-                        To clone this repo to your PC, copy the HTTPS link: (by clicking on code)
-                        <img src="./img/19.png" alt="">
-                    </li>
-
-                    <li>
-                        Go to an emty folder on your PC, open Command prompt there and run:
-                        <span>git clone [https://github.com/BCSF19A033-Adnan/test_repo.git]</span>
-                        <img src="./img/20.png" alt="">
-                    </li>
-
-                    <li>
-                        Done! you will see a new folder in that cmd folder, containg your clone of repository!
-                    </li>
-
-                    <li>
-                        Remember this is already a git project, you dont need to "git init"
-                        <img src="./img/21.png" alt="">
-                    </li>
-
-                    <li>
-                        Make a change in this folder (change README) and check status:
-                        <img src="./img/23.png" alt="">
-                    </li>
-                    <li>
-                        Now this change is only made to local copy, you can confirm it by checking status again:
-                        <img src="./img/24.png" alt="">
-                        It says, your branch is ahead by 1 commit, meaning there is 1 commit change in local repo which is not pushed to GitHub repo.
-                    </li>
-
-                    <li>
-                        Push your changes to remote repo (GitHub) by:
-                        <span>git push</span>
-                        <img src="./img/25.png" alt="">
-                        Similarly you can add and push new files too.
-                    </li>
-
-                    <li>
-                        Note: if you used git push for first time there would be a short popup from windows to authenticate your github passwrod.
-                    </li>
-                </ul>
-            </li>
-
-            <li>
+        <li>
+            Make a new folder and open command prompt in that folder.
+            <ul>
+                <li>An easier way to do so is: </li>
+                <li>Go to that folder in explorer and type cmd before URI and enter.<img src="./img/6.png" alt=""></li>
                 <li>
-                    <h4>Now, lets make a local git project and then push it to github</h4>
-                    <ul>
-                        <li>
-                            Lets go back to our previous project where we learnt basic git commands or you can just make a new local git project.
-                        </li>
-
-                        <li>
-                            Lets add this "this" project to our previous GitHub Repo:
-                            <img src="./img/26.png" alt="">
-                        </li>
-
-                        <li>
-                            Copy the HTTPS URL of GitHub repo like previously done
-                            <img src="./img/19.png" alt="">
-                        </li>
-
-                        <li>
-                            In your "test" project folder enter:
-                            <span>git remote add origin [https://github.com/BCSF19A033-Adnan/test_repo.git]</span>
-                            <span>git push or git push --set-upstream origin master</span>
-
-                            <img src="./img/27.png" alt="">
-                        </li>
-                    </ul>
+                    Command Prompt will open in this folder!
                 </li>
-            </li>
+            </ul>
+        </li>
+
+        <li>
+            Type and enter : <span>git init</span>
+            <ul>
+                <li>Now you have successfully intiated git in this folder.</li>
+                <li>
+                    Output
+                    <img src="./img/7.png" alt="">
+                </li>
+                <li>
+                    Now you can use command:
+                    <span>git status</span>
+                </li>
+                <li>
+                    Output should be:
+                    <img src="./img/8.png" alt="">
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>2. Basic Git Usage</h3>
+    <ul>
+        <li>
+            Create two files in this folder, say f1.txt and f2.txt. and check <span>git status</span>
+            <ul>
+                <li>
+                    you can see both files are recognized as untracked.
+                </li>
+                <li>
+                    Untracked means they are not added in git for tracking and you will have to add them.
+                </li>
+                <li>
+                    <img src="./img/9.png" alt="">
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            Add untracked/new files by:
+            <span>git add [fileName]</span>
+            or to add all files:
+            <span>git add .</span>
+            <ul>
+                <li>
+                    once you add the files, they are placed to staging index. You can check this by:
+                    <span>git status</span>
+                    <img src="./img/10.png" alt="">
+                </li>
+                <li>
+                    Staged files/folders are shown in green!
+                </li>
+                <li>Staged means they are ready to be committed!</li>
+            </ul>
+        </li>
+
+        <li>
+            Commit the files by:
+            <span>
+                git commit -m "Some meaningful commit message"
+            </span>
+            <ul>
+                <li>
+                    the output will be like this:
+                    <img src="./img/11.png" alt="">
+                </li>
+                <li>
+                    We use -m option with commit, when the commit message is short.
+                </li>
+
+                <li>
+                    if we type only
+                    <span>git commit</span>
+                    this will open our default editor for writing commit message!
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            Make a change in f1.txt
+            <ul>
+                <li>
+                    Check status
+                    <img src="./img/12.png" alt="">
+                </li>
+                <li>
+                    Now you will need to add and commit again to record your changes!
+                    <img src="./img/13.png" alt="">
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            Similarly, if you delete or add any new file/folder you will have to add those to git and commit!
+        </li>
+
+        <li>
+            you can check all commit records by:
+            <span>git log</span>
+            <img src="./img/14.png" alt="">
+        </li>
 
 
-        </ul>
-    </p>    
+
+    </ul>
+
+    <h3>3. Basic GitHub Usage</h3>
+    <ul>
+        <li>
+            you can create a repository on github and then clone it into your PC or you can make a git prooject on your
+            PC and then push it to github.
+        </li>
+
+        <li>
+            <h4>First, lets make a repo on GitHub and Clone it</h4>
+            <ul>
+                <li>
+                    go to your github account.
+                </li>
+                <li>
+                    Click create repository:
+                    <img src="./img/15.png" alt="">
+                </li>
+                <li>
+                    Give it a name and then click on create! (You can also add README file)
+
+                    <img src="./img/17.png" alt="">
+                </li>
+                <li>
+                    Now the repo is created
+                    <img src="./img/18.png" alt="">
+                </li>
+
+                <li>
+                    To clone this repo to your PC, copy the HTTPS link: (by clicking on code)
+                    <img src="./img/19.png" alt="">
+                </li>
+
+                <li>
+                    Go to an emty folder on your PC, open Command prompt there and run:
+                    <span>git clone [https://github.com/BCSF19A033-Adnan/test_repo.git]</span>
+                    <img src="./img/20.png" alt="">
+                </li>
+
+                <li>
+                    Done! you will see a new folder in that cmd folder, containg your clone of repository!
+                </li>
+
+                <li>
+                    Remember this is already a git project, you dont need to "git init"
+                    <img src="./img/21.png" alt="">
+                </li>
+
+                <li>
+                    Make a change in this folder (change README) and check status:
+                    <img src="./img/23.png" alt="">
+                </li>
+                <li>
+                    Now this change is only made to local copy, you can confirm it by checking status again:
+                    <img src="./img/24.png" alt="">
+                    It says, your branch is ahead by 1 commit, meaning there is 1 commit change in local repo which is
+                    not pushed to GitHub repo.
+                </li>
+
+                <li>
+                    Push your changes to remote repo (GitHub) by:
+                    <span>git push</span>
+                    <img src="./img/25.png" alt="">
+                    Similarly you can add and push new files too.
+                </li>
+
+                <li>
+                    Note: if you used git push for first time there would be a short popup from windows to authenticate
+                    your github passwrod.
+                </li>
+            </ul>
+        </li>
+
+
+        <li>
+            <h4>Now, lets make a local git project and then push it to github</h4>
+            <ul>
+                <li>
+                    Lets go back to our previous project where we learnt basic git commands or you can just make a new
+                    local git project.
+                </li>
+
+                <li>
+                    Lets add this "this" project to our previous GitHub Repo:
+                    <img src="./img/26.png" alt="">
+                </li>
+
+                <li>
+                    Copy the HTTPS URL of GitHub repo like previously done
+                    <img src="./img/19.png" alt="">
+                </li>
+
+                <li>
+                    In your "test" project folder enter:
+                    <span>git remote add origin [https://github.com/BCSF19A033-Adnan/test_repo.git]</span>
+                    <span>git push or git push --set-upstream origin master</span>
+
+                    <img src="./img/27.png" alt="">
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            <h4>
+                Git Branches
+            </h4>
+            <ul>
+                <li>
+                    A git branch represents an independent line of development. Every
+                    git repository has at least one branch called the master branch.
+                </li>
+                <li>
+                    We can make different branches and work on them seperately and also test them, when the new feature is success we can simply merge braches otherwise discard it. 
+                </li>
+                <li>
+                    Check current branches by:
+                    <span>git brach</span>
+                    <img src="./img/28.png" alt="">
+                    "*" means the branch we are currenlty on
+                </li>
+                <li>
+                    Make a new branch
+                    <span>git branch [name]</span>
+                    <img src="./img/29.png" alt="">
+                </li>
+
+                <li>
+                    Switch to this newbranch by:
+                    <span>git checkout newbranch</span>
+                    <img src="./img/30.png" alt="">
+                </li>
+
+                <li>
+                    You can add a new file in this branch and then merge this branch with master, and all changes made in newBranch will appear in master
+                </li>
+
+                <li>
+                    First switch to branch where we need to merge changes (master) and then enter:
+                    <span>git merge newBranch</span>
+                    <img src="./img/31.png" alt="">
+                </li>
+            </ul>
+        </li>
+
+    </ul>
+    </p>
 
     <div style="height: 500px;"></div>
 
 
-    
+
 
 
 
 </body>
+
 </html>
