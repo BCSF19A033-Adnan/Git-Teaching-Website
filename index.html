@@ -330,9 +330,9 @@
         </li>
 
         <li>
-            <h4>
-                Git Branches
-            </h4>
+            <h3>
+                4. Git Branches
+            </h3>
             <ul>
                 <li>
                     A git branch represents an independent line of development. Every
@@ -367,6 +367,44 @@
                     First switch to branch where we need to merge changes (master) and then enter:
                     <span>git merge newBranch</span>
                     <img src="./img/31.png" alt="">
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            <h3>5. Merge Conflicts</h3>
+            <ul>
+                <li>
+                    Both have a file suppose file1.txt, which is of course similar in both. A
+                    developer on master branch edit line#25 of file1.txt and do a commit.
+                    Another developer on branch1 edit line#50 of file1.txt and do a commit. Now if you merge, it will be a success, because both have made changes to same
+                    file, but to different lines
+                </<li>
+                <li>
+                    However, if both the developers have made changes to same line or set of
+                    lines a conflict will occur, which git cannot handle and it will give a
+                    message that auto-merging failed
+                </li>
+                <li>
+                    To resolve this conflic:
+                    you will either have to manually open editor and choose which change to keep and which not or you will have to use some tool.
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            <h3>
+                6. Hosting your statuc website on github
+            </h3>
+            <p>
+                GitHub offers free hosting of static websites, but the main HTML file must be named index.html
+            </p>
+
+            <h4>Steps to host your website:
+            </h4>
+            <ul>
+                <li>
+                    Be sure main HTML file is, index.html
                 </li>
             </ul>
         </li>
