@@ -1,9 +1,11 @@
 img {
     display :block;
     margin: 10px;
+    width: 600px;
+    height: auto;
 }
 
-p span {
+span {
     background-color: gainsboro;
     display: block;
     margin: 10px;

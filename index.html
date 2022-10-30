@@ -91,7 +91,75 @@
 
     <p>
         <h2>How to use Git and GitHub</h2>
+        <p>
+            Now that you have setup git and github, you are ready to do somethings with these!
+        </p>
+        <h3>1. Intiate a Git project</h3>
+        <ul>
+            
+            <li>
+                Make a new folder and open command prompt in that folder.
+                <ul>
+                    <li>An easier way to do so is: </li>
+                    <li>Go to that folder in explorer and type cmd before URI and enter.<img src="./img/6.png" alt=""></li>
+                    <li>
+                        Command Prompt will open in this folder!
+                    </li>
+                </ul>
+            </li>
 
+            <li>
+                Type and enter : <span>git init</span>
+                <ul>
+                    <li>Now you have successfully intiated git in this folder.</li>
+                    <li>
+                        Output
+                        <img src="./img/7.png" alt="">
+                    </li>
+                    <li>
+                        Now you can use command:
+                        <span>git status</span>
+                    </li>
+                    <li>
+                        Output should be:
+                        <img src="./img/8.png" alt="">
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <ul>
+                    Create two files in this folder, say f1.txt and f2.txt. and check <span>git status</span>
+                    <li>
+                        you can see both files are recognized as untracked.
+                    </li>
+                    <li>
+                        Untracked means they are not added in git for tracking and you will have to add them.
+                    </li>
+                    <li>
+                        <img src="./img/9.png" alt="">
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <ul>
+                    Add untracked/new files by:
+                    <span>git add [fileName]</span>
+                    or to add all files:
+                    <span>git add .</span>
+                    <li>
+                        once you add the files, they are placed to staging index. You can check this by:
+                        <span>git status</span>
+                        <img src="./img/10.png" alt="">
+                    </li>
+                    <li>
+                        Staged files/folders are shown in green!
+                    </li>
+                    <li>Staged means they are ready to be committed!</li>
+                </ul>
+            </li>
+        </ul>
     </p>    
 
     <div style="height: 500px;"></div>
