@@ -126,10 +126,13 @@
                     </li>
                 </ul>
             </li>
+        </ul>
 
+        <h3>2. Basic Git Usage</h3>
+        <ul>
             <li>
+                Create two files in this folder, say f1.txt and f2.txt. and check <span>git status</span>
                 <ul>
-                    Create two files in this folder, say f1.txt and f2.txt. and check <span>git status</span>
                     <li>
                         you can see both files are recognized as untracked.
                     </li>
@@ -143,11 +146,11 @@
             </li>
 
             <li>
+                Add untracked/new files by:
+                <span>git add [fileName]</span>
+                or to add all files:
+                <span>git add .</span>
                 <ul>
-                    Add untracked/new files by:
-                    <span>git add [fileName]</span>
-                    or to add all files:
-                    <span>git add .</span>
                     <li>
                         once you add the files, they are placed to staging index. You can check this by:
                         <span>git status</span>
